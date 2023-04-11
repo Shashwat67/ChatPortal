@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+
+  
+#alert-dialog-title{
+  text-align: center;
+  color: #b61f1f;
+  background-color: #6f7573;
+}
+
+#btn{
+  text-align: center;
+  width: 200px;
+  color: #b61f1f;
+   margin: 0 auto;
+   background-color: #6f7573;
+}
+  label{
+    color: #f7efec;
+  }

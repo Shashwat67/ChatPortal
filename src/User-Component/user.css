@@ -1,0 +1,39 @@
+.format{
+    height: 100% !important;
+    /* margin-bottom: 0 !important;
+    overflow: auto; */
+}
+.userDiv{
+  height: 100%;
+  width: 100%;
+  /* margin-left: 0; */
+  background-image: url('C:\DATA2\Onboarding-Frontend\OnboardingPortal_Frontend\src\assets\userPage3.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  /* object-fit:fill; */
+  background-position: left;
+  background-size:cover;
+}
+
+.completePage{
+    padding-top: 2%;
+    /* height: 100% !important; */
+    width: 100%!important;
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+    /* background-color: blanchedalmond ; */
+  }
+  .allCards{
+    width:30%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: column;
+    opacity: 0.8;
+  }
+  .cards{
+    width:80% !important;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: whitesmoke !important;
+  }

@@ -1,0 +1,95 @@
+/* .format{
+    height: 100% !important;
+} */
+.module-list{
+    list-style-type: none;
+}
+.template-list{
+    list-style-type: none;
+}
+.mainview{
+    height: 100%;
+    background-color: white;
+}
+.tableContainer{
+    background-image: url("C:\DATA2\Onboarding-Frontend\OnboardingPortal_Frontend\src\assets\userPage3.jpg");
+    /* object-fit: contain; */
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+.card{
+    width: 100% !important;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* margin: 10px auto; */
+}
+.cardHead{
+    width:80% !important;
+    margin: 1% auto !important ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.cardBody{
+    width:80% !important;
+    margin: 1% auto !important ;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    line-height: 1.9 !important;
+}
+.cardHead2{
+text-align: left !important;
+margin-left: 1% !important;
+}
+.carditem{
+    text-align: left !important;
+    margin-left: 4% !important;
+    margin-top: 0.1% !important;
+}
+.css-et1ao3-MuiTypography-root{
+    font-size: 1.2rem !important;
+    color: rgb(244, 121, 40);
+}
+.createButton{
+    margin-left: 10px !important;
+    background-color: #FEFBE9 !important;
+    color: red !important;
+    border: 1px solid red !important;
+}
+.icon{
+    color: rgb(244, 121, 40);
+    cursor: pointer;
+}
+.avatar{
+    background-image: linear-gradient(to bottom right,rgb(203, 42, 42),rgb(244, 121, 40));
+}
+.cardAction{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width:80% !important;
+    margin: 1% auto !important ;
+}
+.createCircle{
+    width: 8% !important;
+    height: 8% !important;
+    color: grey;
+    position:fixed;
+    bottom: 160px;
+    right: -11px;
+    cursor: pointer;
+}
